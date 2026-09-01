@@ -1,0 +1,388 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@kiddocart.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Test User",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "name": "Sam",
+      "email": "sam@gmail.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Toys",
+      "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "2",
+      "name": "Educational",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "3",
+      "name": "Baby Products",
+      "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "4",
+      "name": "Outdoor",
+      "image": "https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "5",
+      "name": "Arts & Crafts",
+      "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "6",
+      "name": "Games",
+      "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Remote Control Car",
+      "category": "Toys",
+      "price": 799,
+      "oldPrice": 1199,
+      "rating": 4.5,
+      "reviews": 128,
+      "stock": 25,
+      "featured": true,
+      "ageGroup": "6-8 Years",
+      "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=800&q=80",
+      "description": "A fun and exciting remote control car designed for kids. Easy to operate with a durable design."
+    },
+    {
+      "id": "2",
+      "name": "Building Blocks Set",
+      "category": "Educational",
+      "price": 599,
+      "oldPrice": 899,
+      "rating": 4.7,
+      "reviews": 215,
+      "stock": 40,
+      "featured": true,
+      "ageGroup": "6-8 Years",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=800&q=80",
+      "description": "Colorful building blocks that help children develop creativity, imagination and problem-solving skills."
+    },
+    {
+      "id": "3",
+      "name": "Cute Teddy Bear",
+      "category": "Toys",
+      "price": 499,
+      "oldPrice": 699,
+      "rating": 4.8,
+      "reviews": 176,
+      "stock": 30,
+      "featured": true,
+      "ageGroup": "3-5 Years",
+      "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=800&q=80",
+      "description": "A soft and cuddly teddy bear made with child-friendly materials. Perfect for hugs and gifting."
+    },
+    {
+      "id": "4",
+      "name": "Kids Learning Tablet",
+      "category": "Educational",
+      "price": 1299,
+      "oldPrice": 1799,
+      "rating": 4.4,
+      "reviews": 94,
+      "stock": 18,
+      "featured": true,
+      "ageGroup": "8-12 Years",
+      "image": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=800&q=80",
+      "description": "An interactive learning tablet with fun educational activities for young learners."
+    },
+    {
+      "id": "5",
+      "name": "Baby Musical Rattle",
+      "category": "Baby Products",
+      "price": 299,
+      "oldPrice": 449,
+      "rating": 4.6,
+      "reviews": 82,
+      "stock": 50,
+      "featured": false,
+      "ageGroup": "0-2 Years",
+      "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80",
+      "description": "A colorful musical rattle specially designed for babies. Lightweight and easy for little hands to hold."
+    },
+    {
+      "id": "6",
+      "name": "Kids Bicycle",
+      "category": "Outdoor",
+      "price": 3499,
+      "oldPrice": 4299,
+      "rating": 4.7,
+      "reviews": 67,
+      "stock": 12,
+      "featured": true,
+      "ageGroup": "8-12 Years",
+      "image": "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?auto=format&fit=crop&w=800&q=80",
+      "description": "A stylish and sturdy kids bicycle designed for outdoor adventures and everyday fun."
+    },
+    {
+      "id": "7",
+      "name": "Coloring Art Kit",
+      "category": "Arts & Crafts",
+      "price": 449,
+      "oldPrice": 649,
+      "rating": 4.5,
+      "reviews": 143,
+      "stock": 35,
+      "featured": true,
+      "ageGroup": "6-8 Years",
+      "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=800&q=80",
+      "description": "A creative art kit containing colorful supplies to encourage drawing, painting and creativity."
+    },
+    {
+      "id": "8",
+      "name": "Kids Puzzle Game",
+      "category": "Games",
+      "price": 349,
+      "oldPrice": 499,
+      "rating": 4.6,
+      "reviews": 119,
+      "stock": 45,
+      "featured": false,
+      "ageGroup": "6-8 Years",
+      "image": "https://th.bing.com/th/id/OIP.LjE1GXygJVhoe7O5YZkOGAHaEo?w=280&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "description": "An entertaining puzzle game that helps children improve concentration, memory and logical thinking."
+    },
+    {
+      "id": "9",
+      "name": "Kids Kitchen Set",
+      "category": "Toys",
+      "price": 899,
+      "oldPrice": 1299,
+      "rating": 4.4,
+      "reviews": 88,
+      "stock": 22,
+      "featured": false,
+      "ageGroup": "3-5 Years",
+      "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80",
+      "description": "A colorful pretend-play kitchen set that lets children enjoy creative cooking adventures."
+    },
+    {
+      "id": "10",
+      "name": "Alphabet Learning Cards",
+      "category": "Educational",
+      "price": 249,
+      "oldPrice": 399,
+      "rating": 4.8,
+      "reviews": 201,
+      "stock": 60,
+      "featured": true,
+      "ageGroup": "3-5 Years",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80",
+      "description": "Colorful alphabet flash cards that make early learning fun and engaging for children."
+    },
+    {
+      "id": "11",
+      "name": "Baby Soft Play Mat",
+      "category": "Baby Products",
+      "price": 999,
+      "oldPrice": 1499,
+      "rating": 4.7,
+      "reviews": 156,
+      "stock": 20,
+      "featured": true,
+      "ageGroup": "0-2 Years",
+      "image": "https://images.unsplash.com/photo-1607453998774-d533f65dac99?auto=format&fit=crop&w=800&q=80",
+      "description": "A soft and comfortable play mat that provides a safe space for babies to play and explore."
+    },
+    {
+      "id": "12",
+      "name": "Kids Football",
+      "category": "Outdoor",
+      "price": 399,
+      "oldPrice": 599,
+      "rating": 4.5,
+      "reviews": 74,
+      "stock": 30,
+      "featured": false,
+      "ageGroup": "6-8 Years",
+      "image": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=800&q=80",
+      "description": "A lightweight kids football perfect for outdoor play, practice and fun with friends."
+    },
+    {
+      "id": "13",
+      "name": "DIY Craft Box",
+      "category": "Arts & Crafts",
+      "price": 699,
+      "oldPrice": 999,
+      "rating": 4.6,
+      "reviews": 91,
+      "stock": 28,
+      "featured": true,
+      "ageGroup": "8-12 Years",
+      "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=800&q=80",
+      "description": "A fun DIY craft box packed with creative activities for children who love making things."
+    },
+    {
+      "id": "14",
+      "name": "Memory Matching Game",
+      "category": "Games",
+      "price": 299,
+      "oldPrice": 449,
+      "rating": 4.7,
+      "reviews": 132,
+      "stock": 40,
+      "featured": false,
+      "ageGroup": "6-8 Years",
+      "image": "https://m.media-amazon.com/images/I/81HkLnkMvbL._AC_SL1500_.jpg",
+      "description": "A fun memory matching game designed to improve children's memory and concentration."
+    },
+    {
+      "id": "15",
+      "name": "Toy Train Set",
+      "category": "Toys",
+      "price": 1099,
+      "oldPrice": 1599,
+      "rating": 4.8,
+      "reviews": 105,
+      "stock": 16,
+      "featured": true,
+      "ageGroup": "3-5 Years",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80",
+      "description": "A colorful toy train set that provides hours of imaginative and creative play."
+    },
+    {
+      "id": "16",
+      "name": "Kids Scooter",
+      "category": "Outdoor",
+      "price": 1799,
+      "oldPrice": 2499,
+      "rating": 4.5,
+      "reviews": 63,
+      "stock": 14,
+      "featured": false,
+      "ageGroup": "8-12 Years",
+      "image": "https://th.bing.com/th/id/OIP.xPwVotFxztiii-zFQ3bJwQHaHQ?w=181&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "description": "A fun and exciting scooter designed for kids."
+    },
+    {
+      "id": "17",
+      "name": "Wooden Shape Sorter",
+      "category": "Educational",
+      "price": 549,
+      "oldPrice": 799,
+      "rating": 4.7,
+      "reviews": 147,
+      "stock": 32,
+      "featured": false,
+      "ageGroup": "3-5 Years",
+      "image": "https://images.unsplash.com/photo-1599623560574-39d485900c95?auto=format&fit=crop&w=800&q=80",
+      "description": "A wooden educational toy that helps children learn shapes, colors and coordination."
+    },
+    {
+      "id": "18",
+      "name": "Plush Bunny Toy",
+      "category": "Baby Products",
+      "price": 449,
+      "oldPrice": 649,
+      "rating": 4.8,
+      "reviews": 189,
+      "stock": 38,
+      "featured": true,
+      "ageGroup": "0-2 Years",
+      "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=800&q=80",
+      "description": "A soft plush bunny made for cuddling, comfort and playful adventures."
+    }
+  ],
+  "orders": [
+    {
+      "id": "RQe5no9qMSY",
+      "userId": "3",
+      "customer": {
+        "name": "Sam",
+        "email": "sam@gmail.com",
+        "phone": "9542096852"
+      },
+      "shippingAddress": {
+        "address": "Balaji Nagar",
+        "city": "Jangaon",
+        "state": "Telangana",
+        "pincode": "506167"
+      },
+      "items": [
+        {
+          "id": "14",
+          "name": "Memory Matching Game",
+          "category": "Games",
+          "price": 299,
+          "oldPrice": 449,
+          "rating": 4.7,
+          "reviews": 132,
+          "stock": 40,
+          "featured": false,
+          "ageGroup": "6-8 Years",
+          "image": "https://m.media-amazon.com/images/I/81HkLnkMvbL._AC_SL1500_.jpg",
+          "description": "A fun memory matching game designed to improve children's memory and concentration.",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 299,
+      "deliveryCharge": 50,
+      "total": 349,
+      "status": "Cancelled",
+      "createdAt": "2026-08-30T10:19:04.149Z"
+    },
+    {
+      "userId": "3",
+      "customer": {
+        "name": "Sam",
+        "email": "sam@gmail.com",
+        "phone": "9542096852"
+      },
+      "shippingAddress": {
+        "address": "Balaji Nagar",
+        "city": "Jangaon",
+        "state": "Telangana",
+        "pincode": "506167"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Remote Control Car",
+          "category": "Toys",
+          "price": 799,
+          "oldPrice": 1199,
+          "rating": 4.5,
+          "reviews": 128,
+          "stock": 25,
+          "featured": true,
+          "ageGroup": "6-8 Years",
+          "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=800&q=80",
+          "description": "A fun and exciting remote control car designed for kids. Easy to operate with a durable design.",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 799,
+      "deliveryCharge": 50,
+      "total": 849,
+      "status": "Processing",
+      "createdAt": "2026-09-01T15:52:13.393Z",
+      "id": "HeLIe2mtifM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
