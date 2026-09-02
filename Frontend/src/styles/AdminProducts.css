@@ -1,0 +1,211 @@
+.admin-products-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: #f8f7fc;
+}
+
+.admin-products-header {
+  max-width: 1400px;
+  margin: 0 auto 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.admin-products-header h1 {
+  margin: 0 0 8px;
+
+  font-size: 32px;
+  color: #222;
+}
+
+.admin-products-header p {
+  margin: 0;
+
+  color: #777;
+  font-size: 15px;
+}
+
+.add-product-btn {
+  display: inline-block;
+
+  padding: 13px 22px;
+
+  background: #7c3aed;
+  color: white;
+
+  border-radius: 9px;
+
+  text-decoration: none;
+
+  font-weight: 700;
+
+  transition: 0.2s ease;
+}
+
+.add-product-btn:hover {
+  background: #6d28d9;
+  transform: translateY(-1px);
+}
+
+.products-table-container {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  background: white;
+
+  border-radius: 14px;
+
+  overflow-x: auto;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+.admin-products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-products-table th {
+  padding: 17px 15px;
+
+  background: #f3e8ff;
+
+  color: #5b21b6;
+
+  text-align: left;
+
+  font-size: 14px;
+}
+
+.admin-products-table td {
+  padding: 15px;
+
+  border-bottom: 1px solid #eeeeee;
+
+  color: #444;
+
+  vertical-align: middle;
+}
+
+.admin-products-table tbody tr:hover {
+  background: #faf8ff;
+}
+
+.admin-product-image {
+  width: 65px;
+  height: 65px;
+
+  object-fit: cover;
+
+  border-radius: 9px;
+
+  border: 1px solid #eeeeee;
+}
+
+.product-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.view-btn,
+.delete-btn {
+  padding: 8px 13px;
+
+  border-radius: 7px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  text-decoration: none;
+}
+
+.view-btn {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.delete-btn {
+  border: none;
+
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.view-btn:hover {
+  background: #ddd6fe;
+}
+
+.delete-btn:hover {
+  background: #fecaca;
+}
+
+.admin-products-message {
+  max-width: 1400px;
+  margin: 30px auto;
+
+  padding: 40px;
+
+  background: white;
+
+  border-radius: 12px;
+
+  text-align: center;
+
+  color: #666;
+}
+
+.admin-products-error {
+  max-width: 1400px;
+  margin: 30px auto;
+
+  padding: 25px;
+
+  background: #fff1f2;
+
+  border: 1px solid #fecdd3;
+
+  border-radius: 12px;
+
+  color: #be123c;
+
+  text-align: center;
+}
+
+.admin-products-error button {
+  display: block;
+
+  margin: 15px auto 0;
+
+  padding: 9px 18px;
+
+  border: none;
+
+  border-radius: 7px;
+
+  background: #7c3aed;
+  color: white;
+
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .admin-products-page {
+    padding: 20px;
+  }
+
+  .admin-products-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .admin-products-header h1 {
+    font-size: 26px;
+  }
+}

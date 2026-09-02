@@ -1,0 +1,33 @@
+.search-bar {
+  display: flex;
+
+  background: white;
+
+  border: 1px solid #e6e1dc;
+  border-radius: 12px;
+
+  overflow: hidden;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar input {
+  flex: 1;
+
+  border: none;
+  outline: none;
+
+  padding: 16px 20px;
+
+  font-size: 15px;
+}
+
+.search-bar button {
+  width: 60px;
+
+  border: none;
+  background: #ff6b35;
+  color: white;
+
+  font-size: 20px;
+}
